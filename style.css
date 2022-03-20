@@ -29,3 +29,11 @@ nav ul a:hover{
     background-color: rgb(74, 78, 77);
     color: aliceblue;
 }
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
