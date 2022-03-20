@@ -1,9 +1,6 @@
 body{
     background-image: url(https://as1.ftcdn.net/v2/jpg/00/81/60/66/1000_F_81606621_45FandH1f1eengvmCJqKTDZ9dPhQy1Tt.jpg);
 }
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +11,7 @@ h1{
     text-align: center;
     color: rgb(12, 12, 11);
     padding: 20px;
+    font-size: x-large;
 }
 nav{
     background-color: rgb(5, 218, 51);
@@ -55,6 +53,8 @@ nav ul a:hover{
 .item h4{
     padding: 5px;
     text-align: center;
+    color: rgb(205, 34, 228);
+    font-size: x-large;
 }
 .item button{
     padding: 5px 30px;
