@@ -21,8 +21,9 @@ nav ul a{
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     transition: 0.2s ease-in;
+    font-size: 15px;
 }
 nav ul a:hover{
     background-color: rgb(74, 78, 77);
