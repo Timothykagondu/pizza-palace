@@ -10,7 +10,7 @@ h1{
     padding: 20px;
 }
 nav{
-    background-color: aqua;
+    background-color: rgb(5, 218, 51);
     display: grid;
     place-items: center;
 }
@@ -48,5 +48,18 @@ nav ul a:hover{
 }
 .item h4{
     padding: 5px;
-    
+    text-align: center;
+}
+.item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 168, 8);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+
 }
