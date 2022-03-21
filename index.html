@@ -50,7 +50,7 @@
         <h4>Extra olives <br> Gluten-Free</h4>
         <button>Order</button>
     </div>
-    <form name="price" onsubmit="return onsubmit()">
+    <form id="food">
         <div class="header">
             <h1> PRICE</h1>
             <div class="PAYMENT">
@@ -60,36 +60,35 @@
         <div class="col-md-4">
             <div id="size">
                 <h2>Choose size:</h2>
-                <input type="radio" name="size" value="Small">Small<br>
-                <input type="radio" name="size" value="Medium">Medium<br>
-                <input type="radio" name="size" value="Large">Large<br>
+                <input type="radio" name="size" value="Small">small<br>
+                <input type="radio" name="size" value="Medium">medium<br>
+                <input type="radio" name="size" value="Large">large<br>
             </div>
             <div class="col-md-4">
             <div id="toppings">
                 <h2>Choose Toppings:</h2>
-                <input type="radio" name="toppings" value="Olives">Olives<br>
-                <input type="radio" name="toppings" value="Cheese">Cheese<br>
+                <input type="radio" name="toppings" value="Olives">olives<br>
+                <input type="radio" name="toppings" value="Cheese">cheese<br>
                 <input type="radio" name="toppings" value="pepperoni">pepperoni<br>
                 </div>
             </div>
             <div class="col-md-4">
             <div id="crust">
                 <h2>Choose Crust:</h2>
-                <input type="radio" name="crust" value="Stuffed">Stuffed<br>
-                <input type="radio" name="crust" value="Gluten-Free">Gluten-Free<br>
-                <input type="radio" name="crust" value="Crispy">Crispy<br>
+                <input type="radio" name="crust" value="Stuffed">stuffed<br>
+                <input type="radio" name="crust" value="Gluten-Free">gluten-Free<br>
+                <input type="radio" name="crust" value="Crispy">crispy<br>
             </div>
             <br>
             <br>
-            <input type="button" onclick="myfunction()" value="Total....">
+            <input type="button" onclick="myFunction()" value="submit">
             <br><br>
-            <input type="text" id="results" size="50">
         </div>
         
 
 
     </form>
 </section>
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
