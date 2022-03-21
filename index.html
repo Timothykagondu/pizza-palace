@@ -50,28 +50,34 @@
         <h4>Extra olives <br> Gluten-Free</h4>
         <button>Order</button>
     </div>
-    <form>
+    <form name="price" onsubmit="return onsubmit()">
+        <div class="header">
+            <h1> PRICE</h1>
+            <div class="PAYMENT">
+                <h2>Your payment: Not Yet Ordered</h2>
+            </div>
+        </div>
         <div class="col-md-4">
             <div id="size">
                 <h2>Choose size:</h2>
-                <input type="radio" name="Small" value="Small">Small<br>
-                <input type="radio" name="Medium" value="Medium">Medium<br>
-                <input type="radio" name="Large" value="Large">Large<br>
+                <input type="radio" name="size" value="Small">Small<br>
+                <input type="radio" name="size" value="Medium">Medium<br>
+                <input type="radio" name="size" value="Large">Large<br>
             </div>
             <div class="col-md-4">
             <div id="toppings">
                 <h2>Choose Toppings:</h2>
-                <input type="radio" name="olives" value="Olives">Olives<br>
-                <input type="radio" name="cheese" value="Cheese">Cheese<br>
-                <input type="radio" name="pepperoni" value="pepperoni">pepperoni<br>
+                <input type="radio" name="toppings" value="Olives">Olives<br>
+                <input type="radio" name="toppings" value="Cheese">Cheese<br>
+                <input type="radio" name="toppings" value="pepperoni">pepperoni<br>
                 </div>
             </div>
             <div class="col-md-4">
             <div id="crust">
                 <h2>Choose Crust:</h2>
-                <input type="radio" name="Stuffed" value="Stuffed">Stuffed<br>
-                <input type="radio" name="Gluten-Free" value="Gluten-Free">Gluten-Free<br>
-                <input type="radio" name="Crispy" value="Crispy">Crispy<br>
+                <input type="radio" name="crust" value="Stuffed">Stuffed<br>
+                <input type="radio" name="crust" value="Gluten-Free">Gluten-Free<br>
+                <input type="radio" name="crust" value="Crispy">Crispy<br>
             </div>
             <br>
             <br>

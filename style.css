@@ -73,3 +73,20 @@ nav ul a:hover{
 .item button:hover{
     transform: scale(1.08);
 }
+.header{
+    background-image: linear-gradient(#5875ee, #2b3db5);
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+    padding: 1 0 1 0;
+}
+.col-md-4{
+    text-align: center;
+    border-style: solid;
+    border: 3 3 3 3;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #5f70df;
+    font-size: large;
+}
+
